@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .profile-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 300px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .profile-card header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .profile-card header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .profile-card header h1,
+        .profile-card header h2 {
+            margin: 10px 0;
+            font-family: Arial, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            color: #333;
+        }
+
+        .profile-bio p {
+            margin: 10px 0;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            text-align: center;
+            color: #666;
+        }
+
+        .profile-social-links {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .profile-social-links li {
+            margin-right: 10px;
+        }
+
+        .profile-social-links li:last-child {
+            margin-right: 0;
+        }
+
+        .profile-social-links a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #eee;
+            text-align: center;
+            line-height: 40px;
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <aside class="profile-card">
+        <header>
+            <!-- Here's the avatar -->
+            <a target="_blank" href="#">
+                <img src="images.13.jpeg" alt="Avatar">
+            </a>
+
+            <!-- The username -->
+            <h1>
+                Narendra Reddy
+            </h1>
+
+            <!-- Role or location -->
+            <h2>
+                Nellore, AP, INDIA
+            </h2>
+        </header>
+
+        <!-- Bit of a bio; who are you? -->
+        <div class="profile-bio">
+            <p>
+                It takes monumental improvement for us to change how we live our lives. Design is the way we access that improvement.
+            </p>
+        </div>
+
+        <!-- Some social links to show off -->
+        <ul class="profile-social-links">
+            <li>
+                <a target="_blank" href="https://www.facebook.com/creativedonut">
+                    <i class="fa fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="https://twitter.com/dropyourbass">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="https://github.com/vipulsaxena">
+                    <i class="fa fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="https://www.behance.net/vipulsaxena">
+                    <i class="fa fa-behance"></i>
+                </a>
+            </li>
+        </ul>
+    </aside>
+</body>
+</html>
